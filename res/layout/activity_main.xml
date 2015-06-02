@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:orientation="vertical"
+    tools:context="com.campandroid.broadcasttest.MainActivity" >
+
+    <Button
+        android:id="@+id/btnSet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@drawable/black_button"
+        android:text="검사하기"
+        android:textColor="#eeeeee" />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#222222"
+        android:gravity="center"
+        android:text="67 unlock"
+        android:textColor="#eeeeee"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtState"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="중독증상이 보입니다."
+        android:textColor="#FFEE00" />
+
+    <ImageView
+        android:id="@+id/imgBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/warning" />
+
+</LinearLayout>
